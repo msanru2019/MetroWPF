@@ -1,0 +1,67 @@
+﻿<Controls:MetroWindow x:Class="MetroWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+       xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MetroWpf"
+        mc:Ignorable="d"
+        Title="Sparta-T" Height="450" Width="800" Background="#FFBFB7B7">
+    <Grid>
+        <TextBox x:Name="txtCustomer" HorizontalAlignment="Left" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Find customer" Height="23" Margin="33,28,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="250" />
+        <TextBox x:Name="txtProduct" HorizontalAlignment="Left" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Find Product" Height="23" Margin="33,68,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="250" />
+        <TabControl HorizontalAlignment="Left" Height="256" Margin="10,154,0,0" VerticalAlignment="Top" Width="374">
+            <TabItem Header="Customers" Background="{x:Null}" Foreground="#FF766D6D">
+                <ListView Margin="10" x:Name="ListViewCustomers"  >
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="ID" Width="120"
+                                                DisplayMemberBinding="{Binding CustomerID}"/>
+                            <GridViewColumn Header="Name" Width="120"
+                                            DisplayMemberBinding="{Binding ContactName}"/>
+                            <GridViewColumn Header="Company" Width="120"
+                                            DisplayMemberBinding="{Binding CompanyName}"/>
+                            <GridViewColumn Header="City" Width="120"
+                                            DisplayMemberBinding="{Binding City}"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </TabItem>
+            <TabItem Header="Supplier" Background="{x:Null}" Foreground="#FF766D6D">
+                <ListView Margin="10" x:Name="ListViewSupplier">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="ID" Width="120"
+                                                DisplayMemberBinding="{Binding SupplierID}"/>
+                            <GridViewColumn Header="Name" Width="120"
+                                            DisplayMemberBinding="{Binding ContactName}"/>
+                            <GridViewColumn Header="Company" Width="120"
+                                            DisplayMemberBinding="{Binding CompanyName}"/>
+                            <GridViewColumn Header="City" Width="120"
+                                            DisplayMemberBinding="{Binding City}"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </TabItem>
+            <TabItem Header="Order" Background="{x:Null}" Foreground="#FF2E2ECA">
+                <ListView Margin="10" x:Name="ListViewOrder">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="OrderID" Width="120"
+                                                DisplayMemberBinding="{Binding OrderID}"/>
+                            <GridViewColumn Header="CustomerID" Width="120"
+                                            DisplayMemberBinding="{Binding CustomerID}"/>
+                            <GridViewColumn Header="EmployeeID" Width="120"
+                                            DisplayMemberBinding="{Binding EmployeeID}"/>
+                            <GridViewColumn Header="OrderDate" Width="120"
+                                            DisplayMemberBinding="{Binding OrderDate}"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </TabItem>
+        </TabControl>
+        <Image HorizontalAlignment="Left" Height="420" Margin="619,0,-0.4,0" VerticalAlignment="Top" Width="175" Stretch="Fill" Source="images/yo2.jpg" />
+        <Button x:Name="btncontinue" Content="Continue" HorizontalAlignment="Left" Margin="425,364,0,0" VerticalAlignment="Top" Width="146" Click="Button_Click"/>
+
+    </Grid>
+</Controls:MetroWindow>
