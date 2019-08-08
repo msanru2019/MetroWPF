@@ -1,12 +1,12 @@
 _____________________________________________________________________________________________________________________
 
- ::::::::  :::::::::     :::     ::::::::: ::::::::::: :::                   ::::::::  ::::::::::      
-:+:    :+: :+:    :+:  :+: :+:   :+:    :+:    :+:   :+: :+:                :+:    :+: :+:    :+:      
-+:+        +:+    +:+ +:+   +:+  +:+    +:+    +:+  +:+   +:+                      +:+ +:+             
-+#++:++#++ +#++:++#+ +#++:++#++: +#++:++#:     +#+ +#++:++#++: +#++:++#++:++    +#++:  +#++:++#+       
-       +#+ +#+       +#+     +#+ +#+    +#+    +#+ +#+     +#+                     +#+        +#+      
-#+#    #+# #+#       #+#     #+# #+#    #+#    #+# #+#     #+#              #+#    #+# #+#    #+#      
- ########  ###       ###     ### ###    ###    ### ###     ###               ########   ########           
+,d88~~\                              d8                  _-~88e   /~~~~~~       
+8888    888-~88e    /~~~8e  888-~\ _d88__   /~~~8e          888b /              
+`Y88b   888  888b       88b 888     888         88b ____  __888" `-~~88e        
+ `Y88b, 888  8888  e88~-888 888     888    e88~-888         888e  /  888b       
+   8888 888  888P C888  888 888     888   C888  888         888P |   888P       
+\__88P' 888-_88"   "88_-888 888     "88_/  "88_-888      ~-_88"   \__88"        
+        888                                                                    
                                                                                 
 ______________________________________________________________________________________________________________________
 README.md
@@ -26,7 +26,7 @@ CONTENTS
 
 ______________________________________________________________________________________________________________________
 
-###1) GETTING STARTED
+##1) GETTING STARTED
 -------------------
  In Mike-squad players collaborate to win in an gaming platform, by batteling their peers who are controlled either by
 the game itself, or by other players. This application contains three different types of games; Ping-Pong, Memory-Game 
@@ -37,7 +37,7 @@ scores for each game.
 
 ______________________________________________________________________________________________________________________
  
-###2) SYSTEM REQUIREMENTS
+##2) SYSTEM REQUIREMENTS
 -----------------------
 
 Supported Operating Systems are:
@@ -59,7 +59,7 @@ Required Sofware and packages
 	MahApps.Metro.IconPacks version 2.3.0
 ________________________________________________________________________________________________________________________	
 	
-###3) INSTALLATION
+##3) INSTALLATION
 -----------------
 
 If you do not have Visual Studio 2019, then use Internet to download this following link :
@@ -75,7 +75,7 @@ files onto Visual Studio.
 
 _________________________________________________________________________________________________________________________
 
-###4) GENERAL INFORMATION
+##4) GENERAL INFORMATION
 ------------------------
 
 Running ApplicationS:
@@ -84,7 +84,7 @@ that you close down all applications before running Mike-Squad.
 
 __________________________________________________________________________________________________________________________
                        
-###5)KNOWN ISSUES
+##5)KNOWN ISSUES
 ---------------
 
 Game Database have been seen to crash the application the first time you launch Sparta-35. If you experience crashes
@@ -92,7 +92,7 @@ while playing, try to delete the database and re-create the same database again.
 
 _________________________________________________________________________________________________________________________
 
-###6) AUTHOR
+##6) AUTHOR
 
 	************************
 	    SANRU MATHYBALAN
