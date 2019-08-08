@@ -77,7 +77,7 @@ ________________________________________________________________________________
 ##5)KNOWN ISSUES
 ---------------
 
-Game Database have been seen to crash the application the first time you launch Sparta-35. If you experience crashes
+Northwind Database have been seen to crash the application the first time you launch Sparta-35. If you experience crashes
 while playing, try to delete the database and re-create the same database again.
 
 _________________________________________________________________________________________________________________________
